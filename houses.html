@@ -7,24 +7,84 @@
     <title>Houses</title>
   </head>
   <body>
+    <!-- Top NavBar -->
     <nav class="navbar">
-      <div class="container-fluid">
+      <div class="container-fluid my-0">
         <a class="navbar-brand">
-          <img src="./images/logo-airbnb.png" alt="logo-airbnb" width="93" height="30"/>
+          <img src="./images/logo-airbnb.png" alt="logo-airbnb" width="86" height="25"/>
         </a>
         <form class="d-flex gap-2" role="search">
-          <button class="btn btn-outline-secondary" type="submit"><img class="rounded pl-2" src="./images/IMG_2117-2.jpg" alt="logo-airbnb" width="13" height="13" /> Justin B</button>
+          <button class="btn btn-outline-secondary" type="submit"><img class="rounded pr-5" src="./images/IMG_2117-2.jpg" alt="logo-airbnb" width="20" height="20" /> Justin B</button>
           <button class="btn btn-outline-secondary" type="submit">Logout</button>
         </form>
       </div>
     </nav>
-    <div class="row">
-      <div class="col">1</div>
-      <div class="col">1</div>
-      <div class="col">1</div>
-      <div class="col">1</div>
-      <div class="col">1</div>
-      <div class="col">1</div>
+    <div class="filter bg-light">
+      <form class="container">
+        <div class="row">
+          <div class="col">
+            <div class="input-group">
+              <span class="input-group-text">@</span>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Any Location</option>
+                <option value="1">Ko Phangan</option>
+                <option value="2">Koh Samui</option>
+                <option value="3">Bali</option>
+              </select>
+            </div>
+          </div>
+          <div class="col">
+            <div class="input-group">
+              <span class="input-group-text">@</span>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Any Rooms</option>
+                <option value="1">1 Room</option>
+                <option value="2">2 Rooms</option>
+                <option value="3">3 Rooms</option>
+                <option value="4">4 Rooms</option>
+                <option value="5">5 Rooms</option>
+              </select>
+            </div>
+          </div>
+          <div class="col">
+            <div class="input-group">
+              <span class="input-group-text">@</span>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Price (High to Low)</option>
+                <option value="1">Price (Low to High)</option>
+              </select>
+            </div>
+          </div>
+          <div class="col">
+            <div class="input-group">
+              <span class="input-group-text">@</span>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+          <div class="col">
+            <div class="input-group">
+              <span class="input-group-text">@</span>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Search" /> 
+          </div>
+          <div class="col">        
+            <button type="submit" class="btn btn-primary form-inline">Submit</button>
+          </div>
+        </div>
+        </form>
     </div>
   </body>
   </html>
