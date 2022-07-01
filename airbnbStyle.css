@@ -1,6 +1,9 @@
 nav {
     border-bottom: 1px solid lightgray;
 }
+.housesImg{
+    width: 100px;
+}
 h5 a {
     text-decoration: none;
     
